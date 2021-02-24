@@ -1,0 +1,242 @@
+ion-header {
+  position: absolute;
+}
+
+ion-header ion-toolbar {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+ion-header ion-toolbar ion-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  --color: #fff;
+  font-size: 14px;
+}
+
+.default-left-padding {
+  padding-left: 26px;
+}
+
+.default-top-padding {
+  padding-top: 20px;
+}
+
+ion-content .banner {
+  position: relative;
+}
+
+ion-content .banner img {
+  width: 100%;
+}
+
+ion-content .banner .caption {
+  position: absolute;
+  width: 100%;
+  bottom: 25px;
+  color: white;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+ion-content .banner .search {
+  position: absolute;
+  bottom: -40px;
+  width: calc(100% - 52px);
+  background: white;
+  margin: 16px 26px 16px 26px;
+  padding: 5px 16px 5px 16px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.16);
+}
+
+ion-content .banner .search ion-item {
+  --inner-padding-end: 0 !important;
+}
+
+ion-content .banner .search ion-item ion-input {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  --placeholder-color: #212121 !important;
+  --placeholder-opacity: 0.5;
+  --color: #21212150 !important;
+}
+
+ion-content .banner .search ion-item ion-icon {
+  color: #21212150 !important;
+  margin-right: 10px;
+}
+
+ion-content .banner .search ion-item ion-button {
+  height: 35px;
+  margin-right: 0 !important;
+  --box-shadow: none;
+}
+
+ion-content .banner .search ion-item ion-button img {
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+}
+
+ion-content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 42px 26px 16px 26px;
+}
+
+ion-content .title h2 {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #364f6b;
+}
+
+ion-content .title p {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 12px;
+  color: var(--ion-color-primary);
+}
+
+ion-content .event-slider ion-slide {
+  width: 50%;
+  margin-left: 25px;
+}
+
+ion-content .event-slider ion-slide ion-col {
+  padding-left: 0;
+}
+
+ion-content .event-slider ion-slide ion-col ion-card {
+  width: 100%;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.16);
+  margin-left: 0;
+  margin-top: 0;
+}
+
+ion-content .event-slider ion-slide ion-col ion-card ion-card-header img {
+  width: 100%;
+}
+
+ion-content .event-slider ion-slide ion-col ion-card ion-card-content {
+  padding-top: 13px;
+}
+
+ion-content .event-slider ion-slide ion-col ion-card ion-card-content .date {
+  font-family: "Poppins", sans-serif;
+  color: #364f6b;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+ion-content .event-slider ion-slide ion-col ion-card ion-card-content .eventname {
+  font-family: "Poppins", sans-serif;
+  color: #364f6b;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+ion-content .event-slider ion-slide ion-col ion-card ion-card-content .location {
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--ion-color-primary);
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+ion-content .event-slider ion-slide ion-col ion-card ion-card-content .location ion-icon {
+  padding-right: 3px;
+}
+
+ion-content .event-slider .live-event {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.16);
+  margin: 0 26px 26px 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ion-content .event-slider .live-event img {
+  border-radius: 10px 0 0 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+ion-content .event-slider .live-event .info {
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ion-content .event-slider .live-event .info .content h6 {
+  color: #364f6b;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+ion-content .event-slider .live-event .info .content .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--ion-color-primary);
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+ion-content .event-slider .live-event .info .content .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+ion-content .event-slider .live-event .info .content .stats span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #364f6b80;
+  font-size: 10px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=home.page.css.map */
