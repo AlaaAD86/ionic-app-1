@@ -1,0 +1,124 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar color="primary" no-border>
+
+    <ion-buttons slot="start">
+      <ion-button>
+        <img src="../../assets/icon/menu.svg" alt="">
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>Event</ion-title>
+
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <img src="../../assets/icon/notification.svg" alt="">
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="banner">
+    <img src="../../assets/icon/banner.svg" />
+
+    <div class="caption ion-padding">
+      Join us <br>
+      & Be part of our festivals
+    </div>
+
+    <div class="search">
+      <ion-item lines="none" class="ion-no-padding">
+        <ion-icon slot="start" name="search-outline"></ion-icon>
+        <ion-input placeholder="Search events"></ion-input>
+        <ion-button slot='end'>
+          <img src="../../assets/icon/filter.svg" />
+        </ion-button>
+      </ion-item>
+    </div>
+  </div>
+
+  <div class="title">
+    <h2>Upcoming Events</h2>
+
+    <p>See all</p>
+  </div>
+
+  <div class="event-slider">
+    <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }" class="default-left-padding">
+
+      <ion-slide>
+        <ion-col class="ion-text-left">
+          <ion-card>
+            <ion-card-header class="ion-no-padding">
+              <img src="../../assets/icon/dance.svg" alt="">
+            </ion-card-header>
+            <ion-card-content>
+              <p class="date">22th March, 2021</p>
+              <h2 class="eventname">Dance in Béarn</h2>
+              <p class="location">
+                <ion-icon name="location"></ion-icon> Paris, Place Condorcet
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-col class="ion-text-left">
+
+          <ion-card>
+            <ion-card-header class="ion-no-padding">
+              <img src="../../assets/icon/festival.svg" alt="">
+            </ion-card-header>
+            <ion-card-content>
+              <p class="date">3rd April, 2021</p>
+              <h2 class="eventname">🌎 Festival of Spring Jazz</h2>
+              <p class="location">
+                <ion-icon name="location"></ion-icon> Paris, Place Condorcet
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-col class="ion-text-left">
+          <ion-card>
+            <ion-card-header class="ion-no-padding">
+              <img src="../../assets/icon/jazz.svg" alt="">
+            </ion-card-header>
+            <ion-card-content>
+              <p class="date">22th October, 2021</p>
+              <h2 class="eventname">Bintang Malam</h2>
+              <p class="location">
+                <ion-icon name="location"></ion-icon> Paris, Condorcet
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+  <div class="default-top-padding title">
+    <h2>Happening Now</h2>
+
+    <p>See all</p>
+  </div>
+<!-- 
+  <div class="live-event">
+    <img src="../../assets/icon/fireworks.svg" alt="">
+    <div class="info">
+      <div class="content">
+        <h6>March for Music world</h6>
+        <p class="stats">
+          <span><ion-icon name="eye"></ion-icon>&nbsp;5.5k</span><span><ion-icon name="location"></ion-icon></span>
+          <p class="location"><ion-icon name="location">Madrid, Spain</ion-icon></p>
+        </p>
+      </div>
+    </div>
+  </div>  -->
+
+</ion-content>
