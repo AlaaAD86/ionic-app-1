@@ -1,1 +1,2 @@
-# ionic-app-1
+# Events page application for design test purposes 
+
